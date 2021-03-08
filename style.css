@@ -1,0 +1,52 @@
+/* Always */
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 50px;
+
+}
+
+.heading{
+    font-size: 100px;
+
+}
+body{
+    text-align: center;
+}
+
+.container{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+/* mobile */ 
+@media only screen and (max-width: 576px) {
+    .box {   
+        width: 50px;   
+        height: 50px;
+        font-size: 25px;
+    }
+    .heading{
+        font-size: 30px;
+    }
+}
+
+/* tablet */ 
+@media only screen and (min-width: 577px) and ( max-width: 768px) {
+    .box {   
+        width: 75px;   
+        height: 75px;
+        font-size: 40px;
+    }
+    .heading{
+        font-size: 50px;
+    }
+}
